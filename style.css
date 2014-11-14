@@ -1,0 +1,139 @@
+/*
+Theme Name: Tartan Eagles Go North
+Theme URI: http://mertonium.com
+Description: Bespoke
+Version: 1.0
+Author: Mertonium
+Author URI: http://mertonium.com
+Tags: travel, fixed width, two columns
+
+	
+
+*/
+
+body {
+	text-align:left;
+	margin:0px;
+	padding:0px;
+	font-family: Verdanda, Arial;
+	color:#000;
+	line-height:1.4em;
+	font-size: 12px;
+	background: #ffffff url(/images/norway_map.jpg) no-repeat center top;
+}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	border:medium none;
+	font-weight:normal;
+	margin:0;
+	padding:0;
+	vertical-align:baseline;
+}
+a {	
+	text-decoration: none;
+}
+ul, ol {
+	margin: 20px 0px 20px 20px;
+}
+table {
+	border-collapse: collapse;
+}
+.fixed_width {
+	width: 960px;
+	margin: 0 auto;
+}
+
+h1 { font-size: 24px; padding-bottom: 12px; }
+h2 { font-size: 18px; }
+
+/* ----------------- CONTAINERS ----------------- */
+
+#footer { padding: 20px; text-align:center; }
+
+#container_header, #container_nav, #container_banner, #container_body, #container_body, #container_footer {
+	float: left;
+	clear: both;
+	width: 100%;
+}
+#container_header {
+}
+
+#container_body {
+	padding: 40px 0 90px 0;
+}
+#container_footer {
+	padding: 40px 0;
+}
+
+/* ------------ BODY STYLIN' ---------------- */
+
+#header_left {
+	float: left;
+	width: 400px;
+}
+#header_right {
+	float: right;
+	/*width: 550px;
+	height: 150px;*/
+	text-align: right;
+	/*background: transparent url(http://www.tartaneaglesgonorth.com/wp-content/themes/tegn/images/header_logo.png) no-repeat;*/
+}
+#body_left {
+	float: right;
+	width: 423px;
+	padding: 0 0 0 38px;
+}
+#body_right {
+	float: right;
+	width: 423px;
+	padding: 0 38px 0 0;
+}
+#footer_left {
+	float: left;
+	width: 468px;
+	text-align: right;
+}
+#footer_right {
+	float: right;
+	width: 423px;
+	text-align: right;
+	padding: 0 38px 0 0;
+}
+
+div.post-top {
+	background: transparent url(/images/road-sign-top.png) no-repeat;
+	width: 476px;
+	height: 48px;
+}
+
+div.post-bottom {
+	background: transparent url(/images/long-road-sign.png) center bottom;
+	width: 476px;
+}
+
+#post-102 div.post-bottom, #post-40 div.post-bottom {
+	background: transparent url(/images/long-road-sign2.png) center bottom;
+}
+
+div.post-body {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+}
+
+div.entry { padding-top: 12px; }
+
+span.pound-sign, input.ppd-amount {
+	font-size: 32px;
+	color:#088521;
+}
+
+input.ppd-amount { width: 100px; text-align: right; color:#088521;}
+p { padding-bottom: 10px; }
+div.sexy-bookmarks {
+	padding-bottom: 12px;
+}
+
+a, input.ppd-amount, span.pound-sign { color:#06751C; }
+div.paypal-donations { padding: 12px 0 12px 0; }
+
+p.wp-caption-text { font-size: 8px; text-align:center; }
