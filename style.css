@@ -49,7 +49,14 @@ h2 { font-size: 18px; }
 
 /* ----------------- CONTAINERS ----------------- */
 
-#footer { padding: 20px; text-align:center; }
+#footer { 
+  padding: 20px; 
+  text-align:center; 
+}
+#footer h2 {
+  font-size: 14px;
+  line-height: 20px;
+}
 
 #container_header, #container_nav, #container_banner, #container_body, #container_body, #container_footer {
   float: left;
