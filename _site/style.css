@@ -154,7 +154,7 @@ div.sexy-bookmarks {
   padding-bottom: 12px;
 }
 
-a, input.ppd-amount, span.pound-sign { color:#06751C; }
+h1, a, input.ppd-amount, span.pound-sign { color:#06751C; }
 div.paypal-donations { padding: 12px 0 12px 0; }
 
 p.wp-caption-text { font-size: 12px; text-align:center; }
