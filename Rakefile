@@ -1,7 +1,7 @@
-target_bucket = "tartaneagles.com"
+target_bucket = "tartaneaglesgonorth.com"
 
 desc "Deploy site to Amazon S3"
-task :deploy => :build do
+task :deploy do
   require "s3"
   require "mime/types"
 
